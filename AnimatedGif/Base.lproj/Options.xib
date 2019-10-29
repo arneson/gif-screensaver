@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="15400" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14490.70"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="15400"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -39,7 +39,7 @@
             <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
             <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
             <rect key="contentRect" x="196" y="240" width="557" height="520"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1366" height="745"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
             <view key="contentView" id="EiT-Mj-1SZ">
                 <rect key="frame" x="0.0" y="0.0" width="557" height="520"/>
                 <autoresizingMask key="autoresizingMask"/>
@@ -48,7 +48,7 @@
                         <rect key="frame" x="20" y="481" width="89" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="View options:" id="vEo-Jt-50P">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="OK" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="cbc-xy-mRP">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
 DQ
 </string>
@@ -70,8 +70,8 @@ DQ
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RVF-wA-M8z">
                         <rect key="frame" x="18" y="141" width="446" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Path to an single GIF file or an directory with multiple GIF:" id="n5q-02-QNa">
-                            <font key="font" metaFont="system"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Url to a single GIF file " id="n5q-02-QNa">
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -79,8 +79,8 @@ DQ
                     <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n2R-8Q-rKI">
                         <rect key="frame" x="20" y="90" width="525" height="43"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="file:///please/select/an/gif/animation.gif" drawsBackground="YES" id="Pkm-gg-pTx">
-                            <font key="font" metaFont="system"/>
+                        <textFieldCell key="cell" selectable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="left" title="https:///please/select/an/gif/animation.gif" drawsBackground="YES" id="Pkm-gg-pTx">
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -90,7 +90,7 @@ DQ
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xFM-F3-Tnm">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <string key="keyEquivalent" base64-UTF8="YES">
 Gw
 </string>
@@ -104,7 +104,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Set frame rate manual (otherwise frame rate from GIF is used)" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="7lC-sW-T7r">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                         </buttonCell>
                         <connections>
                             <action selector="pressCheckboxSetFpsManual:" target="-2" id="9QN-mN-Nn7"/>
@@ -119,7 +119,7 @@ Gw
                         <rect key="frame" x="18" y="217" width="119" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Background color:" id="rci-LG-s3A">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -128,7 +128,7 @@ Gw
                         <rect key="frame" x="18" y="176" width="295" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Run screensaver in background mode:" id="dxI-if-SV8">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -138,7 +138,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="stretch with keep image ratio" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="5ie-tK-3yY" id="lpg-CF-VQ3">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
+                            <font key="font" metaFont="message"/>
                             <menu key="menu" id="HIs-ti-7q1">
                                 <items>
                                     <menuItem title="stretch with keep image ratio" state="on" id="5ie-tK-3yY">
@@ -172,7 +172,7 @@ Gw
                         <rect key="frame" x="18" y="360" width="127" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Frames per second:" id="E2z-Kq-20H">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -181,7 +181,7 @@ Gw
                         <rect key="frame" x="18" y="312" width="13" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="1" id="teS-7o-F0q">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -190,7 +190,7 @@ Gw
                         <rect key="frame" x="163" y="360" width="43" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="30" id="fYk-cV-JLZ">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -199,7 +199,7 @@ Gw
                         <rect key="frame" x="509" y="360" width="38" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="fps)" id="9tk-h1-X4j">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -208,7 +208,7 @@ Gw
                         <rect key="frame" x="463" y="360" width="42" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="0.0" id="8nB-VS-pdn">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -217,7 +217,7 @@ Gw
                         <rect key="frame" x="355" y="360" width="109" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="(value from GIF =" id="j4e-Y9-nD4">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -225,9 +225,9 @@ Gw
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wPm-LD-3ir">
                         <rect key="frame" x="381" y="54" width="170" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="push" title="Select File or Directory" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Ro-dF-RHD">
+                        <buttonCell key="cell" type="push" title="Select url" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="5Ro-dF-RHD">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                         </buttonCell>
                         <connections>
                             <action selector="sendFileButtonAction:" target="-2" id="7M8-iE-WnT"/>
@@ -237,7 +237,7 @@ Gw
                         <rect key="frame" x="230" y="217" width="83" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Image filter:" id="h7t-3D-ntJ">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -247,7 +247,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="blur" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="NV3-VC-Jwd" id="pmW-xf-ELa">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
+                            <font key="font" metaFont="message"/>
                             <menu key="menu" id="WkT-pK-ODL">
                                 <items>
                                     <menuItem title="blur" state="on" id="NV3-VC-Jwd"/>
@@ -260,7 +260,7 @@ Gw
                         <rect key="frame" x="436" y="169" width="111" height="24"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <segmentedCell key="cell" borderStyle="border" alignment="left" style="rounded" trackingMode="selectOne" id="5DN-LS-Kqw">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <segments>
                                 <segment label="start"/>
                                 <segment label="stop" selected="YES" tag="1"/>
@@ -275,7 +275,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="1x" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" enabled="NO" state="on" borderStyle="borderAndBezel" tag="4" imageScaling="proportionallyDown" inset="2" selectedItem="Zha-e0-7vD" id="qcN-ls-fdm">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
+                            <font key="font" metaFont="message"/>
                             <menu key="menu" id="rhN-oU-97L">
                                 <items>
                                     <menuItem title="10x" tag="13" id="j7P-bb-kOS">
@@ -322,7 +322,7 @@ Gw
                         <rect key="frame" x="262" y="312" width="21" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="30" id="oUD-bo-3eZ">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -332,7 +332,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Make 3 by 3 tiles from view option" bezelStyle="regularSquare" imagePosition="left" inset="2" id="nsr-ov-ZdS">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                         </buttonCell>
                     </button>
                     <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kHm-iW-jBX">
@@ -340,14 +340,14 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="check" title="Load animation at start into memory (saves CPU time)" bezelStyle="regularSquare" imagePosition="left" inset="2" id="F13-fV-gKv">
                             <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                         </buttonCell>
                     </button>
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yeR-Gc-HfV">
                         <rect key="frame" x="526" y="312" width="21" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="60" id="Zxp-6N-m2s">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -356,7 +356,7 @@ Gw
                         <rect key="frame" x="185" y="23" width="187" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" enabled="NO" sendsActionOnEndEditing="YES" alignment="center" placeholderString="No Renderer found" id="18j-wX-g0I">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -365,7 +365,7 @@ Gw
                         <rect key="frame" x="18" y="261" width="398" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Time untill random GIF change (only if a directory is selected):" id="j2v-em-RI6">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
@@ -375,7 +375,7 @@ Gw
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <popUpButtonCell key="cell" type="push" title="1 minute" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" tag="3" imageScaling="proportionallyDown" inset="2" selectedItem="kA8-p2-82u" id="BOk-n8-UFe">
                             <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                            <font key="font" metaFont="menu"/>
+                            <font key="font" metaFont="message"/>
                             <menu key="menu" id="pjJ-17-n1Q">
                                 <items>
                                     <menuItem title="5 seconds" id="21v-Ze-X7z">
@@ -428,7 +428,7 @@ Gw
                         <rect key="frame" x="102" y="64" width="43" height="17"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" placeholderString="0.0.0" id="ONZ-Lh-Vf5">
-                            <font key="font" metaFont="system"/>
+                            <font key="font" metaFont="message"/>
                             <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205FD09423687696003DA85C /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 205FD09323687696003DA85C /* giphy.gif */; };
 		CC1777EC20A1E95D0043C210 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = CC1777E920A1E7DF0043C210 /* LICENSE.md */; };
 		CC24BA9B1BF124350045BDC7 /* AnimatedGifView.h in Headers */ = {isa = PBXBuildFile; fileRef = CC24BA9A1BF124350045BDC7 /* AnimatedGifView.h */; };
 		CC24BA9D1BF124350045BDC7 /* AnimatedGifView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC24BA9C1BF124350045BDC7 /* AnimatedGifView.m */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		205FD09323687696003DA85C /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
 		CC1073C41C78947900AC5F63 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/Options.xib; sourceTree = "<group>"; };
 		CC1777E920A1E7DF0043C210 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = SOURCE_ROOT; };
 		CC24BA951BF124350045BDC7 /* AnimatedGif.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedGif.saver; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +77,7 @@
 		CC24BA971BF124350045BDC7 /* AnimatedGif */ = {
 			isa = PBXGroup;
 			children = (
+				205FD09323687696003DA85C /* giphy.gif */,
 				CC24BA9A1BF124350045BDC7 /* AnimatedGifView.h */,
 				CC24BA9C1BF124350045BDC7 /* AnimatedGifView.m */,
 				CCED59B5225F92CA00B53CF0 /* AnimatedGifWindowClasses.h */,
@@ -144,7 +147,7 @@
 				TargetAttributes = {
 					CC24BA941BF124350045BDC7 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = SQ837JJYGQ;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -174,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205FD09423687696003DA85C /* giphy.gif in Resources */,
 				CC1777EC20A1E95D0043C210 /* LICENSE.md in Resources */,
 				CCEF76C8218C83DB0050F7C9 /* Localizable.strings in Resources */,
 				CC4486F21C8A3A50008520D2 /* thumbnail.png in Resources */,
@@ -342,11 +346,15 @@
 		CC24BAA11BF124350045BDC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnimatedGif/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				PRODUCT_BUNDLE_IDENTIFIER = "noname.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
 			};
@@ -355,12 +363,16 @@
 		CC24BAA21BF124350045BDC7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = AnimatedGif/Info.plist;
 				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "noname.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = saver;
 			};
